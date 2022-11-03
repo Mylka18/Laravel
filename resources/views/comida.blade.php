@@ -82,13 +82,13 @@
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src="https://recetascocinaperuana.com/wp-content/uploads/2020/05/caldo-de-gallina.jpg" class="d-block w-100" alt="...">
+            <p style="text-align:center;"><img src="https://recetascocinaperuana.com/wp-content/uploads/2020/05/caldo-de-gallina.jpg" width="150" height="80" alt="InternetCtrl" class="d-block w-100" alt="..."></p>
             </div>
             <div class="carousel-item">
-            <img src="https://i.ytimg.com/vi/H6lgxgEWIs8/maxresdefault.jpg" class="d-block w-100" alt="...">
+            <p style="text-align:center;"><img src="https://i.ytimg.com/vi/H6lgxgEWIs8/maxresdefault.jpg" width="150" height="80" alt="InternetCtrl" class="d-block w-100" alt="..."></p>
             </div>
             <div class="carousel-item">
-            <img src="https://portal.andina.pe/EDPfotografia3/Thumbnail/2022/06/21/000877563W.jpg" class="d-block w-100" alt="...">
+            <p style="text-align:center;"><img src="https://portal.andina.pe/EDPfotografia3/Thumbnail/2022/06/21/000877563W.jpg" width="150" height="80" alt="InternetCtrl" class="d-block w-100" alt="..."></p>
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
