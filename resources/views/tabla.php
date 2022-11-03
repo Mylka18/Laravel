@@ -22,6 +22,7 @@
             }
             col {
                 font-family: 'brittanic'
+                
             }
         </style>
     </head>
