@@ -18,87 +18,42 @@
             body {
                 font-family: 'Nunito', 'berlin';
                 font-size: 30px;
-                background: lightblue;
+                background: lightgreen;
             }
-            h1 {
-                text-align: center;
+            col {
+                font-family: 'brittanic'
             }
         </style>
     </head>
     <body>
-        <h1>Hola cómo estás?</h1>
-        <style>
-            div {
-                font-family: 'Nunito', 'berlin';
-                font-size: 30px;
-                background: lightblue;
-                text-align: left;
-            }
-            label {
-                width: 150px;
-                display: inline-block;
-                text-align: left;
-                font-size: 1.5rem;
-                font-family: 'Lato';
-            }
-            form {
-                margin: 25px auto;
-                padding: 20px;
-                border: 5px solid #ccc;
-                width: 500px;
-                background: #eee;
-            }
-            div.form-element {
-                margin: 20px 0;
-            }
-        
-            button {
-                padding: 10px;
-                font-size: 1.5rem;
-                font-family: 'Lato';
-                font-weight: 100;
-                background: yellow;
-                color: black;
-                border: none;
-            }
- 
-        </style>
-        <form method="post" action="" name="signup-form">
-        <div class="form-element">
-            <label>Username</label>
-            <input type="text" name="username" pattern="[a-zA-Z0-9]+" required />
-        </div>
-        <div class="form-element">
-            <label>Email</label>
-            <input type="email" name="email" required />
-        </div>
-        <div class="form-element">
-            <label>Password</label>
-            <input type="password" name="password" required />
-        </div>
-        <button type="submit" name="register" value="register">Register</button>
-        </form>
-        
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-            <img src="https://recetascocinaperuana.com/wp-content/uploads/2020/05/caldo-de-gallina.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-            <img src="https://i.ytimg.com/vi/H6lgxgEWIs8/maxresdefault.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-            <img src="https://portal.andina.pe/EDPfotografia3/Thumbnail/2022/06/21/000877563W.jpg" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-        </div>
+    <table class="table">
+    <thead>
+        <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <th scope="row">1</th>
+        <td>Milka</td>
+        <td>Rojas</td>
+        <td>@milk</td>
+        </tr>
+        <tr>
+        <th scope="row">2</th>
+        <td>Lenin</td>
+        <td>Penadillo</td>
+        <td>@len</td>
+        </tr>
+        <tr>
+        <th scope="row">3</th>
+        <td colspan="2">Inocencio Acosta</td>
+        <td>@ino</td>
+        </tr>
+    </tbody>
+    </table>
     </body>
 </html>

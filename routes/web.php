@@ -22,3 +22,6 @@ Route::get('/hola', function () {
 Route::get('/comida', function () {
     return view('comida');
 });
+Route::get('/paisaje', function () {
+    return view('paisaje');
+});
