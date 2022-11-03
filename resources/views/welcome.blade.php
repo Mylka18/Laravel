@@ -37,9 +37,9 @@
             @endif
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                <div class="flex justify-center pt-10 sm:justify-start sm:pt-0">
+                <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
                    
-                        <a href="" class="ml-4 text-lg h-16 w-auto text-gray-900 sm:h-20">Milka</a>
+                        <a href=" " class="font-size: 16px ml-4 text-lg h-16 w-auto text-gray-900 sm:h-20">Milka</a>
 
                 </div>
 
